@@ -49,8 +49,8 @@ BACK = [
 
 HELP_BTN = [
     [
-        InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-        InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+        InlineKeyboardButton(text="❍ 𝐂ʜᴀᴛʙᴏᴛ ❍", callback_data="CHATBOT_CMD"),
+        InlineKeyboardButton(text="❍ 𝐓ᴏᴏʟ𝐬 ❍", callback_data="TOOLS_DATA"),
     ],
     [
         InlineKeyboardButton(text="❍ 𝐂ʟᴏ𝐬ᴇ ❍", callback_data="CLOSE"),
@@ -67,8 +67,8 @@ CLOSE_BTN = [
 
 CHATBOT_ON = [
     [
-        InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="enable_chatbot"),
-        InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="disable_chatbot"),
+        InlineKeyboardButton(text="❍ 𝐄ɴᴀʙʟᴇ ❍", callback_data="enable_chatbot"),
+        InlineKeyboardButton(text="❍ 𝐃ɪ𝐬ᴀʙʟᴇ ❍", callback_data="disable_chatbot"),
     ],
 ]
 
@@ -115,14 +115,14 @@ HELP_BUTN = [
 
 ABOUT_BTN = [
     [
-        InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),
-        InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
+        InlineKeyboardButton(text="❍ 𝐒ᴜᴘᴘᴏʀᴛ ❍", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="❍ 𝐇ᴇʟᴘ ❍", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", user_id=OWNER),
+        InlineKeyboardButton(text="❍ 𝐎ᴡɴᴇʀ ❍", user_id=OWNER),
     ],
     [
-        InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text="❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url=f"https://t.me/{UPDATE_CHNL}"),
         InlineKeyboardButton(text="❍ 𝐁ᴀᴄᴋ ❍", callback_data="BACK"),
     ],
 ]
