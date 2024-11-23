@@ -67,8 +67,8 @@ CLOSE_BTN = [
 
 CHATBOT_ON = [
     [
-        InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data="enable_chatbot"),
-        InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data="disable_chatbot"),
+        InlineKeyboardButton(text="❍ 𝐄ɴᴀʙʟᴇ ❍", callback_data="enable_chatbot"),
+        InlineKeyboardButton(text="❍ 𝐃ɪ𝐬ᴀʙʟᴇ ❍", callback_data="disable_chatbot"),
     ],
 ]
 
@@ -97,7 +97,7 @@ CHATBOT_BACK = [
 
 HELP_START = [
     [
-        InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
+        InlineKeyboardButton(text="❍ 𝐇ᴇʟᴘ ❍", callback_data="HELP"),
         InlineKeyboardButton(text="❍ 𝐂ʟᴏ𝐬ᴇ ❍", callback_data="CLOSE"),
     ],
 ]
@@ -105,7 +105,7 @@ HELP_START = [
 
 HELP_BUTN = [
     [
-        InlineKeyboardButton(text="« ғᴇᴀᴛᴜʀᴇs »", callback_data="HELP"),
+        InlineKeyboardButton(text="❍ 𝐘ᴏᴜʀ 𝐂ᴏᴍᴍᴀɴᴅ ❍", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text="❍ 𝐂ʟᴏ𝐬ᴇ ❍", callback_data="CLOSE"),
