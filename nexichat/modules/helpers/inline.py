@@ -28,7 +28,7 @@ DEV_OP = [
     ],
     [
         InlineKeyboardButton(
-            text="❍ 𝐘ᴏᴜʀ 𝐂ᴏᴍᴍᴀɴᴅ ❍",
+            text="❍ 𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ❍",
             url=f"https://t.me/{nexichat.username}?startgroup=true",
         ),
     ],
