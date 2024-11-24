@@ -28,6 +28,7 @@ from nexichat.modules.helpers import (
     MUSIC_BACK_BTN,
     SOURCE_READ,
     START,
+    START_BOT,
     TOOLS_DATA_READ,
     languages,
 )
@@ -102,6 +103,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=TOOLS_DATA_READ,
             reply_markup=InlineKeyboardMarkup(CHATBOT_BACK),
         )
+#test backkkk 
+    elif query.data == "SBACK":
+        await query.message.edit(
+            text=START,
+            reply_markup=InlineKeyboardMarkup(START_BOT),
 
     # Back to the help menu
     elif query.data == "BACK_HELP":
