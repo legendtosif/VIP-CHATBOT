@@ -14,7 +14,6 @@ from pyrogram.types import CallbackQuery
 import asyncio
 import config
 from nexichat import LOGGER, nexichat, db
-from nexichat.modules.helpers import chatai
 from nexichat.modules.helpers import (
     ABOUT_BTN,
     ABOUT_READ,
@@ -102,7 +101,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=TOOLS_DATA_READ,
             reply_markup=InlineKeyboardMarkup(CHATBOT_BACK),
         )
-            reply_markup=InlineKeyboardMarkup(START_BOT),
 
     # Back to the help menu
     elif query.data == "BACK_HELP":
